@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Artworks Gallery.exe" version="1.0.0.1" publicKeyToken="6b17c03875f1145c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="app_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Artworks Gallery" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Artworks Gallery.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Artworks Gallery.exe" size="473064">
+      <assemblyIdentity name="Artworks Gallery" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wYophuvtYkJCB5i8jUoVKPPr8Q1lJahXw794HuIXgQ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="app_icon.ico" size="27720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ov9H6N7TwhsrVBUrlUWkVD4DPUwnwEXudcnuiV+t09U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Artworks Gallery.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SHAKIL-PC\Shakil Ahmed" issuerKeyHash="eaec95b3795cdf78b910e0a3e241de45077f614f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q4bMQa3QrHAimmR6X7pJaY2v/dZh1kHjkWMvu+ypBEU=</DigestValue></Reference></SignedInfo><SignatureValue>rfcjjgrZurxQ7FZ87V1jPqWU9y17IoLfx6pF/0H72JnDT0OiX9zDrXI9Mxpi8lYweXFNX4E8DCGHXeCSMHGPG2kgUpme8jurObhtuChzQ92ut3D3e/eMElIb1/6Biy1TRnxKLrX+Fj5VFIOrZSoETu0YGQkXbi3VRUBn8dbIrsI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zqIjIZ0wqgefT850rPuu/eGVMQ2w1AFQjl3DQ5G/NBpAqjz5nPbhTj/PJqKYeXEIC3jlegyDVQ6hlDD1tD0j8Gkvqsn48fzT6MSsJgCzEVA7qX0a7ZpmnWyuF51v8j1CO020MKkyT2FmlJAQDas9fca5atKHG1d1dJzUC/yAURk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4504a9ecbb2f6391e341d661d6fdaf8d6949ba5f7a649a2270acd0ad41cc86ab" Description="" Url=""><as:assemblyIdentity name="Artworks Gallery.exe" version="1.0.0.1" publicKeyToken="6b17c03875f1145c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SHAKIL-PC\Shakil Ahmed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EkSRI3t17OYxmIuyPKOe7Bt4G5Iq6xca1Zf/DL3PGpQ=</DigestValue></Reference></SignedInfo><SignatureValue>LrgoLCPHJJ8jYxGKHDfrXJ6TKZN5R6VffXtVJrEOqyy/79s5fprsas7Uy/2XCT9jh2xTxiQBOcl9wAoMxz9xgWO+JLHcWYUpSpR2o+2tleydhIura/9Vv6NE2KFpCuq/OI+gPN33NEO+zvXaMTQU8sMQst5Pr5wSmn+/Or5pPyg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zqIjIZ0wqgefT850rPuu/eGVMQ2w1AFQjl3DQ5G/NBpAqjz5nPbhTj/PJqKYeXEIC3jlegyDVQ6hlDD1tD0j8Gkvqsn48fzT6MSsJgCzEVA7qX0a7ZpmnWyuF51v8j1CO020MKkyT2FmlJAQDas9fca5atKHG1d1dJzUC/yAURk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQPL5irFlPQrhNWLWEW+es7jANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAUwBIAEEASwBJAEwALQBQAEMAXABTAGgAYQBrAGkAbAAgAEEAaABtAGUAZDAeFw0yMTA4MjAxNjA3MzdaFw0yMjA4MjAyMjA3MzdaMDcxNTAzBgNVBAMeLABTAEgAQQBLAEkATAAtAFAAQwBcAFMAaABhAGsAaQBsACAAQQBoAG0AZQBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOoiMhnTCqB59PznSs+6794ZUxDbDUAVCOXcNDkb80GkCqPPmc9uFOP88moph5cQgLeOV6DINVDqGUMPW0PSPwaS+qyfjx/NPoxKwmALMRUDupfRrtmmadbK4XnW/yPUI7TbQwqTJPYWaUkBANqz19xrlq0ocbV3V0nNQL/IBRGQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJfGWVaeCXyhK6fujP3JgTTHC8B6WcWdFVgI4Yro0Lf9QtbWY48JkykBy0pk52EFG/OBc0GEEkuP90+n2kKV9+Btm0yTi+/ScDQJ1miQ97MsiUVoNBumwOhuZ0JLo+rwlMHp1MjsI3ofjWl7llfb1xYaOU9Af6aMPb1HgW8xF6nO</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

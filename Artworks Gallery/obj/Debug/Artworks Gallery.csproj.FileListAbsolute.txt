@@ -1,0 +1,20 @@
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Database.mdf
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Database_log.ldf
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Artworks Gallery.exe.config
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Artworks Gallery.exe.manifest
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Artworks Gallery.application
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Artworks Gallery.exe
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\bin\Debug\Artworks Gallery.pdb
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.Home.resources
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.Properties.Resources.resources
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.csproj.GenerateResource.cache
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.csproj.CoreCompileInputs.cache
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.exe.manifest
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.application
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.exe
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.pdb
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks Gallery.csproj.AssemblyReference.cache
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.AdminPanel.resources
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.ArtworkDetails.resources
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.VisitorSection.resources
+E:\DOTNET\windows\Artworks Gallery\Artworks Gallery\obj\Debug\Artworks_Gallery.AdminLogin.resources
